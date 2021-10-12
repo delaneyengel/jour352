@@ -1,0 +1,27 @@
+body{
+  margin:0px;
+}
+.banner
+{
+  padding:0px;
+  margin: 0px;
+  width: 100vw;
+  height: 50vh;
+  background-color: #e3f6ff;
+  border-bottom: 5px solid #36454F;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+.banner h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 92px;
+  color:#36454F;
+}
+@media only screen and (max-width: 450px){
+  .banner {
+    height:100vh;
+
+  }
+}
